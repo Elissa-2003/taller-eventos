@@ -1,6 +1,8 @@
 document.addEventListener("DOMContentLoaded" , ()=> { 
 
-    document.getElementsByTagName("div").addEventListener("click", ()=> {
-        alert ("Hola! Soy el div") // al clickear el div nos saltara una alerta con un saludo
-    });
+    const divs = document.getElementById("ElDiv");
+        divs.addEventListener("click", ()=>{
+            alert("Hola! Soy el div"); //al hacer click al div nos saltara una alerta con un saludo.
+        });
+
 });
